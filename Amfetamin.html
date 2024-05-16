@@ -1,0 +1,85 @@
+<!DOCTYPE html> <!-- Defines the document type and HTML version -->
+<html lang="en"> <!-- Starts the HTML document with English language setting -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the site is responsive -->
+    <title>Amfetamin</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="css/css.css"> <!-- Links to external CSS for styling -->
+    <script>
+        function toggleVisibility(id) {
+            var info = document.getElementById(id);
+            if (info.style.display === 'none') {
+                info.style.display = 'block'; // Shows the element
+            } else {
+                info.style.display = 'none'; // Hides the element
+            }
+        }
+    </script> <!-- JavaScript function to toggle visibility of elements -->
+</head>
+
+<body>
+    <div class="row"> <!-- Container for layout structure -->
+        
+        <div class="header col-12"> <!-- Header section spanning full width -->
+            <nav class="side"> <!-- Navigation bar -->
+                <li> <a href="hem.html">Home</a></li> <!-- Navigation link to Home -->
+                <li> <a href="Amfetamin.html">Amfetamin</a></li> <!-- Navigation link to Amfetamin -->
+                <li> <a href="Kokain.html">Cocaine</a></li> <!-- Navigation link to Cocaine -->
+                <li> <a href="Marijuana.html">Marijuana</a></li> <!-- Navigation link to Marijuana -->
+                <li> <a href="hash.html">Hash</a></li> <!-- Navigation link to Hash -->
+            </nav>
+        </div>
+        
+        <div class="main col-9 tmpBorder"> <!-- Main content area with temporary border -->
+            <h2>Amfetamin</h2> <!-- Section heading -->
+            
+            <img class ="col-4"
+            src="https://media.istockphoto.com/id/642570854/sv/foto/bl%C3%A5-meth.webp?s=2048x2048&w=is&k=20&c=iwd3hEABP9MNwMTCh0KLmmU5QxU597tyUzewwyl2qx4="
+            alt="Amfetanim"> <!-- Image with source and alternative text -->
+            <script src="script.js"></script> <!-- External JavaScript file -->
+            <button onclick="startColorChange()">Buy</button> <!-- Button to trigger color change -->
+            <div id="info1" style="display:none;">
+                <p>Side effects of amphetamines include:</p> <!-- Paragraph listing side effects -->
+                <p> 
+                    Addiction.
+                    Anxiety, irritability and behavioral problems.
+                    Circulation problems.
+                    Erectile dysfunction.
+                    Heart disease.
+                    Nausea.
+                    Psychosis.
+                    Severe fatigue or difficulty sleeping.
+                    Swelling of blood vessels (vasculitis).
+                </p>
+            <ol>
+                <li><a href="https://www.samhsa.gov/find-help/national-helpline">Webbsite for help</a></li> <!-- Link to a help website -->
+            </ol>
+            </div>
+        </div>
+        <div class="foot col-12"> <!-- Footer section spanning full width -->
+            <p>&copy; Knark AB 2024</p> <!-- Copyright notice -->
+            <button onclick="toggleVisibility('info2')">More Info</button>
+            <div id="info2" style="display:none;">
+                <p>Privacy Policy for Knark AB
+
+                    Effective Date: January 1, 2024
+                    
+                    1. Introduction Welcome to Knark AB. We are committed to protecting the privacy of our visitors and users while they interact with the content, products, and services on our site (knarkab.com). This Privacy Policy applies to the Knark AB website and governs data collection, processing, and usage. By using the website, you consent to the data practices described in this policy.
+                    
+                    2. Information Collection Knark AB collects personally identifiable information, such as your email address, name, and home or work address when you register for access to certain portions of our site or request services. We also collect anonymous demographic information which is not unique to you, such as your age, preferences, and interests.
+                    
+                    3. Use of Information Knark AB uses your personal information to inform you of other products or services available from Knark AB and its affiliates. We may also contact you via surveys to conduct research about your opinion of current services or potential new services.
+                    
+                    4. Sharing Information with Third Parties Knark AB does not sell, rent, or lease its customer lists to third parties. We may share data with trusted partners to help perform statistical analysis, send you email or postal mail, provide customer support, or arrange for deliveries.
+                    
+                    5. Security of your Personal Information Knark AB secures your personal information from unauthorized access, use, or disclosure. We use appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online.
+                    
+                    6. Changes to this Policy Knark AB will occasionally update this Privacy Policy to reflect company and customer feedback. We encourage you to periodically review this Policy to be informed of how Knark AB is protecting your information.
+                    
+                    7. Contact Information Knark AB welcomes your questions or comments regarding this Privacy Policy. Please contact us at: Email: privacy@knarkab.com Phone: +1234567890</p>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
