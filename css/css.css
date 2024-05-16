@@ -49,7 +49,7 @@ body {
 
 /* Footer Styles */
 .foot {
-  background-color: #95A78D; /* Sets a muted green background color for the footer */
+  background-color: black; /* Sets a muted green background color for the footer */
   color: white; /* Sets the text color in the footer to white */
   text-align: center; /* Centers the text horizontally within the footer */
   padding: 10px 0; /* Adds vertical padding to the top and bottom of the footer */
@@ -60,7 +60,7 @@ body {
 
 button {
   background-color: #0ad0f3; /* Sets a vibrant green background color for buttons */
-  color: white; /* Sets the text color of buttons to white */
+  color: black; /* Sets the text color of buttons to white */
   border: none; /* Removes the default border of buttons */
   padding: 10px 20px; /* Adds padding inside the button for better clickability */
   text-align: center; /* Centers the text inside the button */
