@@ -42,7 +42,7 @@ body {
 }
 
 .main img {
-  width: 50%; /* Sets the width of images to half of their container's width */
+  width: 20%; /* Sets the width of images to half of their container's width */
   height: auto; /* Keeps the image height proportional to its width */
   padding: 5px; /* Adds padding around images */
 }
