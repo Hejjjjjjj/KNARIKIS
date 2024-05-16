@@ -36,7 +36,7 @@ body {
 
 /* Main Content Styles */
 .main {
-  background-color: #F302F8; /* Sets a light gray background color for the main content area */
+  background-color: #808884; /* Sets a light gray background color for the main content area */
   padding: 20px; /* Adds padding inside the main content area for spacing */
   color: #333; /* Sets the text color to dark gray for better readability */
 }
@@ -49,7 +49,7 @@ body {
 
 /* Footer Styles */
 .foot {
-  background-color: #F302F8; /* Sets a muted green background color for the footer */
+  background-color: #95A78D; /* Sets a muted green background color for the footer */
   color: white; /* Sets the text color in the footer to white */
   text-align: center; /* Centers the text horizontally within the footer */
   padding: 10px 0; /* Adds vertical padding to the top and bottom of the footer */
@@ -59,7 +59,7 @@ body {
 }
 
 button {
-  background-color: #4CAF50; /* Sets a vibrant green background color for buttons */
+  background-color: #0ad0f3; /* Sets a vibrant green background color for buttons */
   color: white; /* Sets the text color of buttons to white */
   border: none; /* Removes the default border of buttons */
   padding: 10px 20px; /* Adds padding inside the button for better clickability */
@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Changes the background color to a darker green when hovered */
+  background-color: #f60101; /* Changes the background color to a darker green when hovered */
 }
 
 /* Responsive Grid */
